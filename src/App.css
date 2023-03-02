@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  border: 3px solid rgba(220, 224, 245, 0.386);
+  max-width: 30em;
+  min-width: 30em;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* .todo-item-contianer{
+  width: 20em;
+  height: 5em;
+  border: 10px solid black;
+  display: flex;
+  flex-direction: row;
+} */
+
+
+.todo-icon-grp{
+  text-align: center;
+  border-bottom: 3px solid rgba(220, 224, 245, 0.386);
+  padding-bottom: 1em;
+}
+i{
+  color: rgba(0, 0, 255, 0.468);
+  font-size: large;
+  padding: 5px;
+}
+
+i:hover{
+  color:rgba(0, 0, 255, 0.648) ;
+}
+
+p{
+  font-size: 1.8em;
+  margin: 10px 1px;
+}
+#item-add-btn{
+  border-radius :50%; 
+  background-color: rgba(0, 0, 255, 0.468);
+  max-width: 4em;
+  border: none;
+  padding: 1em;
+  margin: 2em 1em ;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+button i{
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  /* color: rgba(128, 128, 128, 0.66); */
+
+}
+
+
+.mark-done-btn{
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5%;
+}
+.mark-done-btn:hover{
+  background-color:rgba(0, 0, 255, 0.183) ;
+}
+
+h2{
+  border-bottom: 1px solid black;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
